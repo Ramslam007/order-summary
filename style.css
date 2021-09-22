@@ -1,0 +1,68 @@
+body {
+    width: -webkit-fill-available;
+    font-family: 'IBM Plex Serif', serif, 'Lobster', cursive;
+    text-align: -webkit-center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 400px;
+    text-align: center;
+    background: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: #d5d2f9 -8px 9px 5px;
+}
+
+.image > img {
+    width: -webkit-fill-available;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.info {
+    padding: 10px;
+}
+
+.plan{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: wheat;
+    margin: 0px 20px 0px 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.plan>img{
+    width: 50px;
+}
+
+.price>h3 {
+    font-size: 18px;
+    margin: 0px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    padding: 10px 30px 10px 30px;
+    background: #382adf;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: 0px;
+    font-size: medium;
+}
+
+.cancel>a{
+    text-decoration: none;
+}
